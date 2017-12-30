@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE3E3"
+    tools:context="com.example.android.app_ui.activity_tracking">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/generate_id"
+            android:text="generate id"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"
+            android:padding="30dp"
+            android:background="#BBDEFB"
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/generate_id"
+        android:hint="Enter the ID to be tracked"
+        android:visibility="gone"
+        android:id="@+id/edittext"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/track"
+            android:text="Track"
+            android:padding="30dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="120dp"
+            android:background="#BBDEFB"
+            android:layout_below="@+id/generate_id"/>
+
+</RelativeLayout>

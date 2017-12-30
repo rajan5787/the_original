@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shield</string>
+    <string name="API_KEY">AIzaSyAt9o1IzqVdSMzM5uvVrhzcq3rdXp2HvY8</string>
+    <string name="title_activity_maps">Map
+    </string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#f2b32a</item>
+        <item name="colorPrimaryDark">#f2b32a</item>
+        <item name="colorAccent">#ffb32a</item>
+    </style>
+
+<style name="mainPage_button">
+    <item name="android:background">@drawable/button_round</item>
+
+</style>
+
+    <style name="llMainPage">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/ll_shape</item>
+    </style>
+
+    <style name="txtMainPage">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0a0a0a</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
